@@ -40,7 +40,9 @@ class PosMetric(MetricBase):
             
             :return {"acc": float}
         """
-        
+        ret = round(self.acc_count / self.total, 6)
+        self.acc_count = 0
+        self.total = 0
         return {
-            'acc': round(self.acc_count / self.total, 6)
+            'acc': ret
         }
