@@ -9,6 +9,7 @@ This project is based on idad of paper https://arxiv.org/pdf/1508.01991.pdf on E
 ## Usage
 CRF-LSTM Model
 
+```
 python main.py -h
 usage: main.py [-h] [--epoch [EPOCH]] [--rnn_hidden [RNN_HIDDEN]]
                [--word_emb [WORD_EMB]] [--batch_size [BATCH_SIZE]] [--op [OP]]
