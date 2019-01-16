@@ -7,12 +7,6 @@ This project is based on idad of paper https://arxiv.org/pdf/1508.01991.pdf on E
 ```pip install fastNLP```
 
 ## Usage
-```
-python main.py -h
-usage: main.py [-h]
-               [rnn_hidden] [epoch] [word_emb] [batch_size] [op] [lr] [cuda]
-               [bilstm] [continue]
-
 CRF-LSTM Model
 
 python main.py -h
